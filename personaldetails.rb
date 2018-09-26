@@ -1,5 +1,11 @@
-def details()
-"""Steven\n102 Million street"""
+
+def compare(arg1, arg2)
+    if arg1 == arg2
+        puts "True"
+    else
+        puts "False"
+    end
 end
 
-puts details
+compare(22, 11)
+compare(55, 55)
