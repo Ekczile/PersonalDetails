@@ -4,7 +4,7 @@ require_relative "personaldetails.rb"
 class PersonalTest < Minitest::Test
 
     def test_steven
-        assert_equal("", details())
+        assert_equal("Steven\n102 Million street", details())
     end
     
 end
